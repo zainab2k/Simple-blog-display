@@ -15,27 +15,21 @@ To run this project locally, follow these steps:
 
 Clone the repository:
 
-bash
-Copy code
 git clone https://github.com/zainab2k/Simple-blog-display.git
 cd Simple-blog-display
+
 Install dependencies:
 
-bash
-Copy code
 npm install
+
 Run the development server:
 
-bash
-Copy code
 npm start
+
 Open in your browser:
 
 Open http://localhost:3000 to view the app in your browser.
 
-Folder Structure
-arduino
-Copy code
 Simple-blog-display/
 │
 ├── public/
@@ -58,6 +52,7 @@ Simple-blog-display/
 │
 ├── package.json
 └── README.md
+
 Additional Information
 This project was created as a learning exercise to practice React fundamentals.
 The blog data is fetched from a static JSON file (blogData.json).
