@@ -50,12 +50,12 @@ The project directory structure is organized as follows:
 │   │   ├── Blog.js        # Component for displaying individual blog posts
 │   │   ├── BlogList.js    # Component for rendering a list of blog posts
 │   │   ├── Navbar.js      # Navigation bar component
-│   │   └── ...            # Other components used in the application
+│   │   └── blogData.json  # Json
 │   │
-│   ├── assets/            # Static assets such as images
-│   │   ├── img1.jpg
-│   │   ├── img2.jpg
-│   │   └── ...
+│   |
+│   │  
+│   │   
+│   │ 
 │   │
 │   ├── App.js             # Main component handling routing and page structure
 │   ├── index.js           # Entry point for React application
@@ -65,6 +65,33 @@ The project directory structure is organized as follows:
 └── README.md              # This file, providing project information
 
 
+Author
+Zainab - GitHub
+Acknowledgments
+This project was inspired by various React tutorials and documentation resources.
+```
+
+## Detailed Description
+### Components 
+##### Blog.js: 
+Renders an individual blog post with its title, content, author, and image.
+##### BlogList.js: 
+Fetches blog data from blogData.json and maps each blog object to the Blog component.
+##### Navbar.js: 
+Provides navigation links using React Router for navigating between the Home and About pages.
+### JSON Data
+##### blogData.json: 
+Contains static data for blog posts including titles, content, authors, and image paths.
+### Routing
+##### React Router: 
+Used for handling navigation between different views/pages within the application.
+### Styling
+##### CSS: 
+Basic styling applied to components to structure and present the blog posts and navigation.
+### Additional Information
+This project was created as a practice exercise to solidify React fundamentals and component-based architecture.
+Blog post images are stored in the src/assets/ directory.
+The project includes a basic navigation bar with links to the home page (blog display) and an About page.
 Author
 Zainab - GitHub
 Acknowledgments
