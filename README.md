@@ -84,10 +84,7 @@ Used for handling navigation between different views/pages within the applicatio
 ### Styling
 ##### CSS: 
 Basic styling applied to components to structure and present the blog posts and navigation.
-### Additional Information
-This project was created as a practice exercise to solidify React fundamentals and component-based architecture.
-Blog post images are stored in the src/assets/ directory.
-The project includes a basic navigation bar with links to the home page (blog display) and an About page.
+
 ##### Author
 ##### Zainab - GitHub
 ##### Acknowledgments
