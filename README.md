@@ -1,4 +1,4 @@
-Simple Blog Display
+###Simple Blog Display
 This project is a simple blog display application built using React. It fetches blog data from a JSON file and dynamically renders each blog post. Each post includes a title, content, author information, and an image.
 
 
